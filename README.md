@@ -1,7 +1,6 @@
 # Flask Session Cookie Decoder/Encoder ++
 
 **Enhanced by trhacknon**  
-Repo original : [flask-manage-session](https://github.com/tucommenceapousser/flask-manage-session)
 
 ---
 
