@@ -109,8 +109,12 @@ python3 fscm.py bruteforce -c eyJ1c2VyX2lkIjoxfQ== -w keys.txt
 
 ---
 
-Auteurs & Licence
-Wilson Sumanang
-Alexandre ZANNI
-Enhancements: trhacknon
-Licence : MIT
+## Auteurs & Licence
+
+`Wilson Sumanang`
+
+`Alexandre ZANNI`
+
+`Enhancements: trhacknon`
+
+`Licence : MIT`
