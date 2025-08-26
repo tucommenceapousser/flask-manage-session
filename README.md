@@ -1,12 +1,12 @@
 # Flask Session Cookie Decoder/Encoder ++
-
 **Enhanced by trhacknon**  
 
 ---
 
 ## Description
 
-FSCM est un outil avancé pour **encoder, décoder et bruteforcer les cookies de session Flask**.  
+FSCM est un outil avancé pour **encoder, décoder et bruteforcer les cookies de session Flask**.
+
 Il permet de :
 
 - Encoder une structure Python/JSON en cookie Flask.
@@ -26,9 +26,8 @@ cd flask-manage-session
 pip install -r requirements.txt
 ```
 
-Requirements :
+### Requirements :
 ```bash
-Python 3.10+
 Flask
 itsdangerous
 rich
@@ -50,10 +49,7 @@ python3 fscm.py <subcommand> [options]
 python3 fscm.py encode -s SECRET_KEY -t '{"user_id": 1, "admin": false}'
 ```
 -s : La secret_key Flask.
-
 -t : La structure du cookie (dict Python / JSON / "auto" pour mode interactif).
-
-
 
 ---
 
@@ -64,10 +60,7 @@ python3 fscm.py decode -c COOKIE_VALUE [-s SECRET_KEY]
 ```
 
 -c : Le cookie Flask à décoder.
-
 -s : La secret_key Flask (optionnelle).
-
-
 
 ---
 
@@ -90,14 +83,11 @@ python3 fscm.py bruteforce -c COOKIE_VALUE -w wordlist.txt
 ```
 
 -c : Le cookie Flask.
-
--w : Fichier wordlist contenant des clés possibles.
-
-
+-w : Fichier wordlistcontenant des clés possibles.
 
 ---
 
-Mode interactif
+## Mode interactif
 
 Si vous utilisez "auto" comme structure de cookie pour encode, un assistant interactif vous guidera pour construire la structure clé/valeur.
 
@@ -120,12 +110,7 @@ python3 fscm.py bruteforce -c eyJ1c2VyX2lkIjoxfQ== -w keys.txt
 ---
 
 Auteurs & Licence
-
 Wilson Sumanang
-
 Alexandre ZANNI
-
 Enhancements: trhacknon
-
-
 Licence : MIT
